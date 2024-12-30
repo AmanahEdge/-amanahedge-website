@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>amanheghe - Ethical Back-Office Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">
+        <!-- Placeholder for your logo icon -->
+        <img src="logo.png" alt="amanheghe Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-section">
+      <h1>Welcome to amanheghe</h1>
+      <p>Empowering Businesses with Ethical Back-Office Solutions</p>
+      <a href="#services" class="cta-btn">Explore Services</a>
+    </div>
+  </header>
+
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Bookkeeping & Financial Admin</h3>
+        <p>Accurate records, no interest-based transactions. We handle finances ethically so you can focus on growth.</p>
+      </div>
+      <div class="service-card">
+        <h3>Supplier & Vendor Management</h3>
+        <p>We vet vendors for Sharia compliance, ensuring transparency and halal-certified supply chains.</p>
+      </div>
+      <div class="service-card">
+        <h3>Administrative Support</h3>
+        <p>We streamline your daily operations—email management, scheduling, data entry—so you don’t have to.</p>
+      </div>
+      <div class="service-card">
+        <h3>Halal Compliance Audits</h3>
+        <p>We check your products and processes for compliance, connecting you with reputable certification bodies.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="why-us" class="why-us-section">
+    <h2>Why Choose amanheghe?</h2>
+    <p>We combine expertise, integrity, and efficiency to deliver a seamless back-office experience. 
+       By adhering to Islamic principles, we ensure our services are free from riba and haram elements—
+       so your business remains trustworthy and grows sustainably.</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Get in Touch</h2>
+    <p>Ready to take your operations to the next level? Contact us for a consultation.</p>
+    <a href="mailto:info@amanheghe.com" class="contact-btn">Email Us</a>
+  </section>
+
+  <footer class="main-footer">
+    <p>&copy; 2024 amanheghe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+:root {
+  --primary-color: #004B5B; /* Deep Teal or Navy */
+  --accent-color: #C9A66B;  /* Warm Gold */
+  --bg-color: #F6F6F6;      /* Light neutral background */
+  --text-color: #333333;
+  --font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.main-header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100px; /* Adjust as needed */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-btn {
+  background: var(--accent-color);
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.services-section, .why-us-section, .contact-section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.service-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.service-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+}
+
+.contact-section .contact-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  margin-top: 2rem;
+}
